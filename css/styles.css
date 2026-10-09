@@ -10824,7 +10824,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* Fundo de tela cheia do template. Para usar uma foto, salve-a em assets/img/
+   e troque o gradiente por: url("../assets/img/sua-foto.jpg") no-repeat center center fixed; */
 body {
-  background: url("https://dummyimage.com/1920x1080/dee2e6/6c757d.jpg") no-repeat center center fixed;
+  background: linear-gradient(160deg, #f8f9fa 0%, #dee2e6 55%, #adb5bd 100%) no-repeat center center fixed;
   background-size: cover;
 }
